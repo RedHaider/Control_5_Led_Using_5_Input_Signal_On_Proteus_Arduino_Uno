@@ -1,0 +1,31 @@
+const int LED_1 = 2;   // assign digital pin 2 to LED_1
+const int LED_2 = 3;   // assign digital pin 3 to LED_2
+const int LED_3 = 4;   // assign digital pin 4 to LED_3
+const int LED_4 = 5;   // assign digital pin 5 to LED_4
+const int LED_5 = 6;   // assign digital pin 6 to LED_5
+
+void setup() {
+  pinMode(LED_1, OUTPUT); // set LED_1 as an output
+  pinMode(LED_2, OUTPUT); // set LED_2 as an output
+  pinMode(LED_3, OUTPUT); // set LED_3 as an output
+  pinMode(LED_4, OUTPUT); // set LED_4 as an output
+  pinMode(LED_5, OUTPUT); // set LED_5 as an output
+}
+
+void loop() {
+  digitalWrite(LED_1, HIGH); // turn on LED_1
+  delay(1000);               // wait for 1 second
+  digitalWrite(LED_1, LOW);  // turn off LED_1
+  digitalWrite(LED_2, HIGH); // turn on LED_2
+  delay(1000);               // wait for 1 second
+  digitalWrite(LED_2, LOW);  // turn off LED_2
+  digitalWrite(LED_3, HIGH); // turn on LED_3
+  delay(1000);               // wait for 1 second
+  digitalWrite(LED_3, LOW);  // turn off LED_3
+  digitalWrite(LED_4, HIGH); // turn on LED_4
+  delay(1000);               // wait for 1 second
+  digitalWrite(LED_4, LOW);  // turn off LED_4
+  digitalWrite(LED_5, HIGH); // turn on LED_5
+  delay(1000);               // wait for 1 second
+  digitalWrite(LED_5, LOW);  // turn off LED_5
+}
